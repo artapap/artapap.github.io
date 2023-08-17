@@ -16,7 +16,7 @@
       {% assign filenameparts = file.path | split: "/" %}
       {% assign filename = filenameparts | last | replace: file.extname,"" %}
 
-      <a href="{{ file.path }}" title="{{ filename }}">
+      <a href="{{ file.path }}" title="{{ filename }}" data-fslightbox="gallery">
         <img src="{{ site.thumbsurl }}{{file.name }}" alt="{{ filename }}"/>
 <!--        <span>{{ filename }}</span>-->
       </a>
