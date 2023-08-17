@@ -4,4 +4,4 @@ layout: home
 ---
 
 
-<img style="width: 40%" src="/assets/images/first.jpg">
+<img style="width: 45%" src="/assets/images/first.jpg">
