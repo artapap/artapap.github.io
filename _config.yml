@@ -21,38 +21,83 @@
 title: Antonis Papadopoulos
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://antonispapadopoulos.art" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "https://antonispapadopoulos.art"
 
 imagesurl: "/assets/images/"
 thumbsurl: "/assets/thumbs/"
-# twitter_username: jekyllrb
-# github_username:  jekyll
+
 
 # Build settings
 theme: hitchens-theme
 plugins:
   - jekyll-feed
 
-# ignore_theme_config: true
 # hide_credits: true
 hide_search: true
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+pictures:
+- dimensions: "100x120"
+  material: ""
+  path: /assets/images/100x120m.jpg
+- dimensions: "100x100"
+  material: "Acrylic"
+  path: /assets/images/4_100x100_acrylics.jpg
+- dimensions: "80x80"
+  material: "Acrylic"
+  path: /assets/images/4_80x80_acrylics.jpg
+- dimensions: "60x60"
+  material: "Acrylic"
+  path: /assets/images/60X60 _acrylic.jpg
+- dimensions: "150x70"
+  material: "Acrylic"
+  path: /assets/images/150x70_acrylik_and_acrylic_ink_on_paper.jpg
+- dimensions: ""
+  material: ""
+  path: /assets/images/IMG_0011.jpg
+- dimensions: "100x100"
+  material: "Acrylic"
+  path: /assets/images/5_100x100_acrylics.jpg
+- dimensions: "30x30"
+  material: "Oil"
+  path: /assets/images/30x30_oil.jpg
+- dimensions: "30x30"
+  material: "Acrylic"
+  path: /assets/images/16_30x30_acrylics.jpg
+- dimensions: "100x70"
+  material: "Acrylic"
+  path: /assets/images/100x70_acrylik_and_acrylic_ink_on_paper.jpg
+- dimensions: "100x70"
+  material: "Acrylic"
+  path: /assets/images/3_100x70_acrylik_on_paper.jpg
+- dimensions: "100x70"
+  material: "Acrylic"
+  path: /assets/images/6_100x70_acrylik_on_paper.jpg
+- dimensions: "30x30"
+  material: "Acrylic"
+  path: /assets/images/4_30x30_acrylics.jpg
+- dimensions: "30x30"
+  material: "Acrylic"
+  path: /assets/images/14_30x30_acrylics.jpg
+- dimensions: "100x90"
+  material: ""
+  path: /assets/images/100x90.jpg
+- dimensions: "140x120"
+  material: "Oil on canvas"
+  path: /assets/images/33_140x120_oil.jpg
+- dimensions: "200x200"
+  material: "Soft pastel on canvas"
+  path: /assets/images/200x200.jpg
+- dimensions: "100x70"
+  material: "Acrylic ink on paper"
+  path: /assets/images/2_100x70_acrylik_and_acrylic_ink_on_paper.jpg
+- dimensions: "80x90"
+  material: "Ink on paper"
+  path: /assets/images/80x90.jpg
+- dimensions: "100x120"
+  material: "Coloured pencil on paper"
+  path: /assets/images/100x120.jpg
+- dimensions: "100x110"
+  material: "Acrylics on canvas"
+  path: /assets/images/first.jpg
+
