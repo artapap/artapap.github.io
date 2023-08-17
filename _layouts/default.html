@@ -5,7 +5,39 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:image" content="https://antonispapadopoulos.art/assets/images/first.jpg" />
+
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:type" content="website">
+
+    <meta content="{{ site.title }}" property="og:site_name">
+    {% if page.title %}
+    <meta content="{{ page.title }}" property="og:title">
+    {% else %}
+    <meta content="{{ site.title }}" property="og:title">
+    {% endif %}
+
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image"
+          content="{{ site.url }}/assets/images/100x90.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="antonispapadopoulos.art">
+    <meta property="twitter:url" content="{{ site.url }}">
+
+    {% if page.title %}
+    <meta content="{{ page.title }}" name="twitter:title">
+    {% else %}
+    <meta content="{{ site.title }}" name="twitter:title">
+    {% endif %}
+
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:image"
+          content="{{ site.url }}/assets/images/100x90.jpg">
+
+
     <title>{{ site.title }}{% if page.title and page.title != "" %} &mdash; {{
         page.title }}{% endif %}</title>
 
