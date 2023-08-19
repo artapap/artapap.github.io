@@ -1,23 +1,48 @@
 <style>
-  .image-gallery {overflow: auto; margin-left: -1%!important;}
-  .image-gallery a {float: left; display: block; margin: 0 0 1% 1%; width: 19%; text-align: center; text-decoration: none!important;}
-  .image-gallery a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
-  .image-gallery a img {height: 100%; display: block;}
+    .image-gallery {
+        overflow: auto;
+        margin-left: -1% !important;
+    }
+
+    .image-gallery a {
+        float: left;
+        display: block;
+        margin: 0 0 0 0;
+        width: 100%;
+        text-align: center;
+        text-decoration: none !important;
+    }
+
+    .image-gallery a span {
+        display: block;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        padding: 3px 0;
+    }
+
+    .image-gallery a img {
+        width: 50%;
+        display: block;
+    }
 </style>
 
 <div class="image-gallery">
-{% for file in site.pictures %}
-  {% if file.path contains include.folder %}
+    {% for file in site.pictures %}
+    {% if file.path contains include.folder %}
     {% if file.dimensions != "" %}
 
-      {% assign filenameparts = file.path | split: "/" %}
-      {% assign filename = filenameparts | last | replace: "jpg","" %}
+    {% assign filenameparts = file.path | split: "/" %}
+    {% assign filename = filenameparts | last | replace: "jpg","" %}
 
-      <a href="{{ file.path }}" title="{{ file.dimensions }}" data-fslightbox="gallery">
-        <img src="{{ site.thumbsurl }}{{filenameparts | last  }}" alt="{{ file.dimensions }}"/>
+    <a href="{{ file.path }}" title="{{ file.dimensions }}"
+       data-fslightbox="gallery"
+       data-alt="An example description.">
+        <img src="{{ site.imagesurl }}{{filenameparts | last  }}"
+             alt="{{ file.dimensions }}"/>
         <span>{{ file.dimensions }}</span>
-      </a>
+    </a>
     {% endif %}
-  {% endif %}
-{% endfor %}
+    {% endif %}
+    {% endfor %}
 </div>
