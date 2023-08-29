@@ -37,10 +37,14 @@
 
     <a href="{{ file.path }}" title="{{ file.dimensions }}"
        data-fslightbox="gallery"
-       data-alt="An example description.">
+       {% if file.material != "" %}
+       data-caption="{{ file.dimensions }}cm|{{ file.material }}"
+       {% else %}
+       data-caption="{{ file.dimensions }}cm"
+       {% endif %}
+    >
         <img src="{{ site.imagesurl }}{{filenameparts | last  }}"
              alt="{{ file.dimensions }}"/>
-        <span>{{ file.dimensions }}</span>
     </a>
     {% endif %}
     {% endif %}
