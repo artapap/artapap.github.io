@@ -3,4 +3,8 @@ title: Works
 layout: home
 ---
 
-{% include second.html folder="/assets/images" %}
+- [House](houses)
+- [Double Reflections](reflections)
+- [Between](between)
+- [Volumes](volumes)
+- [Installations](installations)

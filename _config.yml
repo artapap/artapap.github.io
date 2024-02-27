@@ -36,68 +36,522 @@ plugins:
 # hide_credits: true
 hide_search: true
 
-pictures:
-- dimensions: "100x120"
-  material: ""
-  path: /assets/images/100x120m.jpg
-- dimensions: "100x100"
-  material: "Acrylic"
-  path: /assets/images/4_100x100_acrylics.jpg
-- dimensions: "80x80"
-  material: "Acrylic"
-  path: /assets/images/4_80x80_acrylics.jpg
-- dimensions: "60x60"
-  material: "Acrylic"
-  path: /assets/images/60X60 _acrylic.jpg
-- dimensions: "150x70"
-  material: "Acrylic"
-  path: /assets/images/150x70_acrylik_and_acrylic_ink_on_paper.jpg
-- dimensions: ""
-  material: ""
-  path: /assets/images/IMG_0011.jpg
-- dimensions: "100x100"
-  material: "Acrylic"
-  path: /assets/images/5_100x100_acrylics.jpg
-- dimensions: "30x30"
-  material: "Oil"
-  path: /assets/images/30x30_oil.jpg
-- dimensions: "30x30"
-  material: "Acrylic"
-  path: /assets/images/16_30x30_acrylics.jpg
-- dimensions: "100x70"
-  material: "Acrylic"
-  path: /assets/images/100x70_acrylik_and_acrylic_ink_on_paper.jpg
-- dimensions: "100x70"
-  material: "Acrylic"
-  path: /assets/images/3_100x70_acrylik_on_paper.jpg
-- dimensions: "100x70"
-  material: "Acrylic"
-  path: /assets/images/6_100x70_acrylik_on_paper.jpg
-- dimensions: "30x30"
-  material: "Acrylic"
-  path: /assets/images/4_30x30_acrylics.jpg
-- dimensions: "30x30"
-  material: "Acrylic"
-  path: /assets/images/14_30x30_acrylics.jpg
-- dimensions: "100x90"
-  material: ""
-  path: /assets/images/100x90.jpg
-- dimensions: "140x120"
-  material: "Oil on canvas"
-  path: /assets/images/33_140x120_oil.jpg
-- dimensions: "200x200"
-  material: "Soft pastel on canvas"
-  path: /assets/images/200x200.jpg
-- dimensions: "100x70"
-  material: "Acrylic ink on paper"
-  path: /assets/images/2_100x70_acrylik_and_acrylic_ink_on_paper.jpg
-- dimensions: "80x90"
-  material: "Ink on paper"
-  path: /assets/images/80x90.jpg
-- dimensions: "100x120"
-  material: "Coloured pencil on paper"
-  path: /assets/images/100x120.jpg
-- dimensions: "100x110"
-  material: "Acrylics on canvas"
-  path: /assets/images/first.jpg
+
+home:
+  - path: /assets/images/home/4)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/33)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/34)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/100X100acrylicsoncanvas(3).jpg
+    material: Acrylic on canvas
+  - path: /assets/images/home/21)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/26)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/38)120x120acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/100X70acrylikonpaper(7).jpg
+    material: Acrylic on paper
+  - path: /assets/images/home/100X70acrylikonpaper(11).jpg
+    material: Acrylic on paper
+  - path: /assets/images/home/100X70acrylikonpaper(10)_1.jpg
+    material: Acrylic on paper
+  - path: /assets/images/home/10)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/17)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/27)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/20)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/5)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/60X60acryliconcanvas.jpg
+    material: Acrylic on canvas
+  - path: /assets/images/home/1)60x60acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/35)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/32)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/100X70acrylikonpaper(6).jpg
+    material: Acrylic on paper
+  - path: /assets/images/home/39)120x120acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/100X100acrylicsoncanvas(2).jpg
+    material: Acrylic on canvas
+  - path: /assets/images/home/11)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/IMG_5124.jpg
+    material: IMG_5124.jpg
+  - path: /assets/images/home/8)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/IMG_5119.jpg
+    material: " "
+  - path: /assets/images/home/140X120softpasteloncanvas.jpg
+    material: Soft pastel on canvas
+  - path: /assets/images/home/9)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/140X120acrylicsoncanvas(3).jpg
+    material: Acrylic on canvas
+  - path: /assets/images/home/18)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/19.softpasteloncanvas.jpg
+    material: Soft pastel on canvas
+  - path: /assets/images/home/60X60acrylicsoncanvas(3).jpg
+    material: Acrylic on canvas
+  - path: /assets/images/home/100X70acrylikonpaper(3).jpg
+    material: Acrylic on paper
+  - path: /assets/images/home/29)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/100X100acrylicsoncanvas.jpg
+    material: Acrylic on canvas
+  - path: /assets/images/home/100X70softpasteloncanvas.jpg
+    material: Soft pastel on canvas
+  - path: /assets/images/home/19)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/60X60acrylicsoncanvas.jpg
+    material: Acrylic on canvas
+  - path: /assets/images/home/60X60acrylicsoncanvas(2).jpg
+    material: Acrylic on canvas
+  - path: /assets/images/home/7.softpasteloncanvas.jpg
+    material: Soft pastel on canvas
+  - path: /assets/images/home/140X120softpasteloncanvas(2).jpg
+    material: Soft pastel on canvas
+  - path: /assets/images/home/28)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/140X120acrylicsoncanvas(2).jpg
+    material: Acrylic on canvas
+  - path: /assets/images/home/22)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/25)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/30)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/37)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/3)60x60acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/100X70acrylikonpaper(9).jpg
+    material: Acrylic on paper
+  - path: /assets/images/home/7)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/140X120acrylicsoncanvas(5).jpg
+    material: Acrylic on canvas
+  - path: /assets/images/home/13)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/14)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/60X60acrylicsoncanvas(5).jpg
+    material: Acrylic on canvas
+  - path: /assets/images/home/100X70acrylikonpaper(5).jpg
+    material: Acrylic on paper
+  - path: /assets/images/home/100X70acrylikonpaper(4).jpg
+    material: Acrylic on paper
+  - path: /assets/images/home/36)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/60X60acrylicsoncanvas(4).jpg
+    material: Acrylic on canvas
+  - path: /assets/images/home/31)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/6)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/100X70acrylikonpaper(2)_1.jpg
+    material: Acrylic on paper
+  - path: /assets/images/home/2)60x60acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/8.softpasteloncanvas.jpg
+    material: Soft pastel on canvas
+  - path: /assets/images/home/24)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/31.carcoal&softpastelonpaper(4).jpg
+    material: Charcoal & soft paster on paper
+  - path: /assets/images/home/23)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/140X120acrylicsoncanvas(4).jpg
+    material: Acrylic on canvas
+  - path: /assets/images/home/15)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/12)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/home/18.80X80crylikoncanvas.jpg
+    material: 18.80X80crylikoncanvas.jpg
+  - path: /assets/images/home/150X150acrylicsoncanvas.jpg
+    material: Acrylic on canvas
+  - path: /assets/images/home/5.softpasteloncanvas.jpg
+    material: Soft pastel on canvas
+early:
+  - path: /assets/images/early/DSC01023.jpg
+    material: DSC01023.jpg
+  - path: /assets/images/early/DSC01037.jpg
+    material: DSC01037.jpg
+  - path: /assets/images/early/4.inkonpaper.jpg
+    material: Ink on paper
+  - path: /assets/images/early/14)80x80oil.jpg
+    material: Oil
+  - path: /assets/images/early/DSC01036.jpg
+    material: DSC01036.jpg
+  - path: /assets/images/early/DSC01022.jpg
+    material: DSC01022.jpg
+  - path: /assets/images/early/DSC01020.jpg
+    material: DSC01020.jpg
+  - path: /assets/images/early/DSC01008.jpg
+    material: DSC01008.jpg
+  - path: /assets/images/early/3.inkonpaper.jpg
+    material: Ink on paper
+  - path: /assets/images/early/5)170x100oil.(3).jpg
+    material: Oil
+  - path: /assets/images/early/softpastelonpaper.jpg
+    material: Soft pastel on paper
+  - path: /assets/images/early/DSC01021.jpg
+    material: DSC01021.jpg
+  - path: /assets/images/early/DSC01035.jpg
+    material: DSC01035.jpg
+  - path: /assets/images/early/DSC01019.jpg
+    material: DSC01019.jpg
+  - path: /assets/images/early/DSC01025.jpg
+    material: DSC01025.jpg
+  - path: /assets/images/early/18)60x60oil.jpg
+    material: Oil
+  - path: /assets/images/early/5)170x100oil.(2).jpg
+    material: Oil
+  - path: /assets/images/early/2.inkonpaper.jpg
+    material: Ink on paper
+  - path: /assets/images/early/DSC01024.jpg
+    material: DSC01024.jpg
+  - path: /assets/images/early/15)80x80oil.jpg
+    material: Oil
+  - path: /assets/images/early/DSC01026.jpg
+    material: DSC01026.jpg
+  - path: /assets/images/early/14.softpasteloncanvas(2).jpg
+    material: Soft pastel on canvas
+  - path: /assets/images/early/16)30x30acr.jpg
+    material: Acrylic
+  - path: /assets/images/early/8)170x100oil.jpg
+    material: Oil
+  - path: /assets/images/early/98.jpg
+    material: 98.jpg
+  - path: /assets/images/early/DSC01040.jpg
+    material: DSC01040.jpg
+  - path: /assets/images/early/12)150x70oil.jpg
+    material: Oil
+  - path: /assets/images/early/5)170x100oil.jpg
+    material: Oil
+  - path: /assets/images/early/1.inkonpaper.jpg
+    material: Ink on paper
+  - path: /assets/images/early/4)170x100oil.jpg
+    material: Oil
+  - path: /assets/images/early/5)170x100oil.(4).jpg
+    material: Oil
+  - path: /assets/images/early/3)170x100oil.jpg
+    material: Oil
+  - path: /assets/images/early/artandnature.jpg
+    material: artandnature.jpg
+  - path: /assets/images/early/softpastelonpaper(2).jpg
+    material: Soft pastel on paper
+  - path: /assets/images/early/17.80X80acrylikoncanvas.jpg
+    material: Acrylic on canvas
+  - path: /assets/images/early/13.softpasteloncanvas.jpg
+    material: Soft pastel on canvas
+  - path: /assets/images/early/9.softpasteloncanvas.jpg
+    material: Soft pastel on canvas
+  - path: /assets/images/early/DSC01936.jpg
+    material: DSC01936.jpg
+  - path: /assets/images/early/16.60X60acrylikoncanvas.jpg
+    material: Acrylic on canvas
+  - path: /assets/images/early/softpastelonpaper(3).jpg
+    material: Soft pastel on paper
+  - path: /assets/images/early/10.softpasteloncanvas.jpg
+    material: Soft pastel on canvas
+  - path: /assets/images/early/DSC01016.jpg
+    material: DSC01016.jpg
+  - path: /assets/images/early/11.softpasteloncanvas.jpg
+    material: Soft pastel on canvas
+  - path: /assets/images/early/17)80x80oil.jpg
+    material: Oil
+  - path: /assets/images/early/6.softpasteloncanvas.jpg
+    material: Soft pastel on canvas
+  - path: /assets/images/early/15.softpasteloncanvas(2).jpg
+    material: Soft pastel on canvas
+  - path: /assets/images/early/DSC01015.jpg
+    material: DSC01015.jpg
+  - path: /assets/images/early/6)170x70oil.jpg
+    material: Oil
+  - path: /assets/images/early/softpastelonpaper(4).jpg
+    material: Soft pastel on paper
+  - path: /assets/images/early/DSC01014.jpg
+    material: DSC01014.jpg
+  - path: /assets/images/early/DSC01038.jpg
+    material: DSC01038.jpg
+  - path: /assets/images/early/DSC01010.jpg
+    material: DSC01010.jpg
+  - path: /assets/images/early/DSC01011.jpg
+    material: DSC01011.jpg
+  - path: /assets/images/early/DSC01039.jpg
+    material: DSC01039.jpg
+  - path: /assets/images/early/DSC01013.jpg
+    material: DSC01013.jpg
+  - path: /assets/images/early/12.softpasteloncanvas.jpg
+    material: Soft pastel on canvas
+  - path: /assets/images/early/DSC01012.jpg
+    material: DSC01012.jpg
+landscapes:
+  - path: /assets/images/landscapes/100X70acrylikonpaper(7)_1.jpg
+    material: Acrylic on paper
+  - path: /assets/images/landscapes/100X70acrylikonpaper(9)_1.jpg
+    material: Acrylic on paper
+  - path: /assets/images/landscapes/100X70acrylikonpaper(12)_1.jpg
+    material: Acrylic on paper
+  - path: /assets/images/landscapes/100X70acrylikonpaper(5)_1.jpg
+    material: Acrylic on paper
+  - path: /assets/images/landscapes/100X70acrylikonpaper(10).jpg
+    material: Acrylic on paper
+  - path: /assets/images/landscapes/100X70acrylikonpaper(17).jpg
+    material: Acrylic on paper
+  - path: /assets/images/landscapes/100X70acrylikonpaper(3)_1.jpg
+    material: Acrylic on paper
+  - path: /assets/images/landscapes/100X70acrylikonpaper(16).jpg
+    material: Acrylic on paper
+  - path: /assets/images/landscapes/100X70acrylikonpaper(11)_1.jpg
+    material: Acrylic on paper
+  - path: /assets/images/landscapes/100X70acrylikonpaper(6)_1.jpg
+    material: Acrylic on paper
+  - path: /assets/images/landscapes/100X70acrylikonpaper(15).jpg
+    material: Acrylic on paper
+  - path: /assets/images/landscapes/100X70acrylikonpaper(18).jpg
+    material: Acrylic on paper
+  - path: /assets/images/landscapes/100X70acrylikonpaper(2).jpg
+    material: Acrylic on paper
+  - path: /assets/images/landscapes/100X70acrylikonpaper(14).jpg
+    material: Acrylic on paper
+  - path: /assets/images/landscapes/100X70acrylikonpaper(8)_1.jpg
+    material: Acrylic on paper
+  - path: /assets/images/landscapes/100X70acrylikonpaper(4)_1.jpg
+    material: Acrylic on paper
+  - path: /assets/images/landscapes/100X70acrylikonpaper(13)_1.jpg
+    material: Acrylic on paper
+  - path: /assets/images/landscapes/100X70acrylikonpaper(13).jpg
+    material: Acrylic on paper
+  - path: /assets/images/landscapes/100X70acrylikonpaper(12).jpg
+    material: Acrylic on paper
+  - path: /assets/images/landscapes/100X70acrylikonpaper(8).jpg
+    material: Acrylic on paper
+  - path: /assets/images/landscapes/100X70acrylikonpaper_1.jpg
+    material: Acrylic on paper
+reflections:
+  - path: /assets/images/reflections/30.carcoal&softpastelonpaper(2).jpg
+    material: Charcoal & soft paster on paper
+  - path: /assets/images/reflections/34.100X100oiloncanvas.jpg
+    material: Oil on canvas
+  - path: /assets/images/reflections/30.carcoal&softpastelonpaper(3).jpg
+    material: Charcoal & soft paster on paper
+  - path: /assets/images/reflections/120x100oiloncanvas.jpg
+    material: Oil on canvas
+  - path: /assets/images/reflections/31.carcoal&softpastelonpaper.jpg
+    material: Charcoal & soft paster on paper
+  - path: /assets/images/reflections/100X70acrylikonpaper.jpg
+    material: Acrylic on paper
+  - path: /assets/images/reflections/35.70X50oiloncanvas.jpg
+    material: Oil on canvas
+  - path: /assets/images/reflections/28.carcoal&softpastelonpaper.jpg
+    material: Charcoal & soft paster on paper
+  - path: /assets/images/reflections/32.140X120oiloncanvas.jpg
+    material: Oil on canvas
+  - path: /assets/images/reflections/33.140X120oiloncanvas.jpg
+    material: Oil on canvas
+  - path: /assets/images/reflections/30.carcoal&softpastelonpaper.jpg
+    material: Charcoal & soft paster on paper
+  - path: /assets/images/reflections/ALLEGORIA.jpg
+    material: " "
+  - path: /assets/images/reflections/29.carcoal&softpastelonpaper.jpg
+    material: Charcoal & soft paster on paper
+  - path: /assets/images/reflections/100X70acrylikoncanvas.jpg
+    material: Acrylic on canvas
+between:
+  - path: /assets/images/between/27.colouredpencilonpaper.jpg
+    material: Coloured pencil on paper
+  - path: /assets/images/between/25.colouredpencilonpaper.jpg
+    material: Coloured pencil on paper
+  - path: /assets/images/between/24.colouredpencilonpaper.jpg
+    material: Coloured pencil on paper
+  - path: /assets/images/between/23.colouredpencilonpaper.jpg
+    material: Coloured pencil on paper
+  - path: /assets/images/between/27.colouredpencilonpaper(2).jpg
+    material: Coloured pencil on paper
+  - path: /assets/images/between/26.colouredpencilonpaper.jpg
+    material: Coloured pencil on paper
+  - path: /assets/images/between/22.colouredpensilonpaper.jpg
+    material: Coloured pencil on paper
+  - path: /assets/images/between/16)80x80oil.jpg
+    material: Oil
+  - path: /assets/images/between/21.colouredpencilonpaper.jpg
+    material: Coloured pencil on paper
+installations:
+  - path: /assets/images/installations/2016Interactiveinstallation.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/2018DmocracyMakerAdonisinstallation.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/IMG_0006.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/IMG_0007.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/IMG_0011.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/IMG_0005.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/IMGP2103.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/2014TheDecayof..Interactiveinstallation.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/IMGP2102.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/IMG_0010.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/DSC01929.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/DSC03284.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/DSC02945.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/DSC01928.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/DSC03288_edited.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/instalationTheoutopiasproject.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/b2a.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/2012RockPaperScissorinstallation(2).jpg
+    material: Rock Paper Scissor installation
+  - path: /assets/images/installations/DSC03279.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/2012RockPaperScissorinstallation.jpg
+    material: Rock Paper Scissor installation
+  - path: /assets/images/installations/42.installation.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/b3a.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/2007Installationhomeswethome.jpg
+    material: Home sweet home installation
+  - path: /assets/images/installations/DSC03281_edited_edited.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/2014TheDecayof..Interactiveinstallation(2).jpg
+    material: Interactive installation
+  - path: /assets/images/installations/2012Betweeninstallation(2).jpg
+    material: Between installation
+  - path: /assets/images/installations/31.carcoal&softpastelonpaper(3).jpg
+    material: Charcoal & soft paster on paper
+  - path: /assets/images/installations/41.installation.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/2007Installationhomeswethome(2).jpg
+    material: Home sweet home installation
+  - path: /assets/images/installations/2013Thepartygoesoninstallation.jpg
+    material: The party goes on installation
+  - path: /assets/images/installations/b1a.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/12a.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/DSC01927.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/36.carcoal&softpastelonpaper.jpg
+    material: Charcoal & soft paster on paper
+  - path: /assets/images/installations/2007Installationhomeswethome(3).jpg
+    material: Home sweet home installation
+  - path: /assets/images/installations/31.carcoal&softpastelonpaper(2).jpg
+    material: Charcoal & soft paster on paper
+  - path: /assets/images/installations/12b.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/40.installation.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/2018DmocracyMakerAdonisinstallation(3).jpg
+    material: Interactive installation
+  - path: /assets/images/installations/46.installation.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/IMG_0008.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/b4.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/2007Installationhomeswethome(4).jpg
+    material: Home sweet home installation
+  - path: /assets/images/installations/b3.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/2012Betweeninstallation.jpg
+    material: Between installation
+  - path: /assets/images/installations/38.carcoal&softpastelonpaper.jpg
+    material: Charcoal & soft paster on paper
+  - path: /assets/images/installations/b2.jpg
+    material: Interactive installation
+  - path: /assets/images/installations/37.carcoal&softpastelonpaper.jpg
+    material: Charcoal & soft paster on paper
+  - path: /assets/images/installations/2018DmocracyMakerAdonisinstallation(2).jpg
+    material: Interactive installation
+  - path: /assets/images/installations/20016Thecolectorprojectinstallation.jpg
+    material: The collector project installation
+  - path: /assets/images/installations/b1.jpg
+    material: Interactive installation
+recents:
+  - path: /assets/images/recents/100X70acrylikandacrylicinkonpaper(2).jpg
+    material: Acrylic on paper
+  - path: /assets/images/recents/60X60acrylicsoncanvas(7).jpg
+    material: Acrylic on canvas
+  - path: /assets/images/recents/140x120acrylicsoncanvas(7).jpg
+    material: Acrylic on canvas
+  - path: /assets/images/recents/150X70acrylicsoncanvas.jpg
+    material: Acrylic on canvas
+  - path: /assets/images/recents/60X60acrylicsoncanvas(6).jpg
+    material: Acrylic on canvas
+  - path: /assets/images/recents/7)170x70oil.jpg
+    material: Oil
+  - path: /assets/images/recents/100X100acrylicsoncanvas(5).jpg
+    material: Acrylic on canvas
+  - path: /assets/images/recents/30x30oiloncanvas.jpg
+    material: Oil on canvas
+  - path: /assets/images/recents/150X70acrylikandacrylicinkonpaper.jpg
+    material: Acrylic on paper
+  - path: /assets/images/recents/100X100acrylicsoncanvas(4).jpg
+    material: Acrylic on canvas
+  - path: /assets/images/recents/100x30acrylicsoncanvas(8).jpg
+    material: Acrylic on canvas
+  - path: /assets/images/recents/31.carcoal&softpastelonpaper.jpg
+    material: Charcoal & soft paster on paper
+  - path: /assets/images/recents/100X70acrylikandacrylicinkonpaper.jpg
+    material: Acrylic on paper
+  - path: /assets/images/recents/80X80acrylicsoncanvas(4).jpg
+    material: Acrylic on canvas
+  - path: /assets/images/recents/80X80acrylicsoncanvas(5).jpg
+    material: Acrylic on canvas
+  - path: /assets/images/recents/50x60acrylicsoncanvas.jpg
+    material: Acrylic on canvas
+  - path: /assets/images/recents/100X110acrylicsoncanvas(4).jpg
+    material: Acrylic on canvas
+volumes:
+  - path: /assets/images/volumes/DSC01618.jpg
+    material: DSC01618.jpg
+  - path: /assets/images/volumes/IMG_0001.jpg
+    material: IMG_0001.jpg
+  - path: /assets/images/volumes/IMG_0003.jpg
+    material: IMG_0003.jpg
+  - path: /assets/images/volumes/DSC03300_edited_edited.jpg
+    material: DSC03300_edited_edited.jpg
+  - path: /assets/images/volumes/IMG_0002.jpg
+    material: IMG_0002.jpg
+  - path: /assets/images/volumes/DSC01009.jpg
+    material: DSC01009.jpg
+  - path: /assets/images/volumes/DSC01018.jpg
+    material: DSC01018.jpg
+  - path: /assets/images/volumes/IMG_0004.jpg
+    material: IMG_0004.jpg
+  - path: /assets/images/volumes/IMG.jpg
+    material: IMG.jpg
+  - path: /assets/images/volumes/IMG_0009.jpg
+    material: IMG_0009.jpg
+  - path: /assets/images/volumes/DSC01017.jpg
+    material: DSC01017.jpg
+  - path: /assets/images/volumes/DSC01007.jpg
+    material: DSC01007.jpg
+  - path: /assets/images/volumes/DSC03292_edited_edited.jpg
+    material: DSC03292_edited_edited.jpg
+
 
