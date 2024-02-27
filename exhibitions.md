@@ -3,7 +3,7 @@ title: Exhibitions
 layout: home
 ---
 
-## Personal Exhibitions
+### Personal Exhibitions
 
 - [**2016**: "ENIGAMI" Contemporary Art Center of Thessaloniki (State Museum of Contemporary Art), Thessaloniki](https://www.cact.gr/en/events/enigami&type=past){:target="_blank"}
 - [**2014**: "Between" Artis Causa Art Gallery, Thessaloniki](https://www.culturenow.gr/between-ekthesh-toy-antwnh-papadopoyloy-sth-gkaleri-artis-causa/){:target="_blank"}
@@ -15,7 +15,7 @@ layout: home
 - **2004**: Art Gallery "Zeuxis" Thessaloniki 
 - **2000**: OPONGA Hall of the Municipality of Kilkis, Kilkis
 
-## Group Exhibitions
+### Group Exhibitions
 
 - **2022**: Participation in the 26th Art Athina Astrolavos Art Galleries, Athens
 - **2021**: Participation in the digital Art Athina Astrolavos Art Galleries, Athens

@@ -28,23 +28,19 @@
 </style>
 
 <div class="image-gallery">
-    {% for file in site.pictures %}
+    {% for file in site[include.category] %}
     {% if file.path contains include.folder %}
     {% if file.dimensions != "" %}
 
     {% assign filenameparts = file.path | split: "/" %}
     {% assign filename = filenameparts | last | replace: "jpg","" %}
 
-    <a href="{{ file.path }}" title="{{ file.dimensions }}"
+    <a href="{{ file.path }}" title="{{ file.material }}"
        data-fslightbox="gallery"
-       {% if file.material != "" %}
-       data-caption="{{ file.dimensions }}cm|{{ file.material }}"
-       {% else %}
-       data-caption="{{ file.dimensions }}cm"
-       {% endif %}
+       data-caption="{{ file.material | default: '' }}"
     >
-        <img src="{{ site.imagesurl }}{{filenameparts | last  }}"
-             alt="{{ file.dimensions }}"/>
+        <img src="{{ include.folder }}/{{filenameparts | last  }}"
+             alt="{{ file.material }}"/>
     </a>
     {% endif %}
     {% endif %}
