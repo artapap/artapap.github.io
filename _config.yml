@@ -42,48 +42,20 @@ home:
     material: Acrylic
   - path: /assets/images/home/33)30x30acr.jpg
     material: Acrylic
-  - path: /assets/images/home/21)30x30acr.jpg
-    material: Acrylic
-  - path: /assets/images/home/26)30x30acr.jpg
-    material: Acrylic
-  - path: /assets/images/home/38)120x120acr.jpg
-    material: Acrylic
-  - path: /assets/images/home/100X70acrylikonpaper(11).jpg
-    material: Acrylic on paper
   - path: /assets/images/home/100X70acrylikonpaper(10)_1.jpg
     material: Acrylic on paper
-  - path: /assets/images/home/10)30x30acr.jpg
-    material: Acrylic
-  - path: /assets/images/home/17)30x30acr.jpg
-    material: Acrylic
   - path: /assets/images/home/60X60acryliconcanvas.jpg
-    material: Acrylic on canvas
-  - path: /assets/images/home/35)30x30acr.jpg
-    material: Acrylic
+    material:  Acrylic on canvas
   - path: /assets/images/home/32)30x30acr.jpg
     material: Acrylic
-  - path: /assets/images/home/100X70acrylikonpaper(6).jpg
-    material: Acrylic on paper
-  - path: /assets/images/home/39)120x120acr.jpg
-    material: Acrylic
-  - path: /assets/images/home/100X100acrylicsoncanvas(2).jpg
-    material: Acrylic on canvas
-  - path: /assets/images/home/IMG_5124.jpg
-    material: IMG_5124.jpg
   - path: /assets/images/home/IMG_5119.jpg
     material: " "
   - path: /assets/images/home/140X120softpasteloncanvas.jpg
     material: Soft pastel on canvas
   - path: /assets/images/home/140X120acrylicsoncanvas(3).jpg
     material: Acrylic on canvas
-  - path: /assets/images/home/19.softpasteloncanvas.jpg
-    material: Soft pastel on canvas
-  - path: /assets/images/home/60X60acrylicsoncanvas(3).jpg
-    material: Acrylic on canvas
   - path: /assets/images/home/100X100acrylicsoncanvas.jpg
     material: Acrylic on canvas
-  - path: /assets/images/home/7.softpasteloncanvas.jpg
-    material: Soft pastel on canvas
   - path: /assets/images/home/140X120softpasteloncanvas(2).jpg
     material: Soft pastel on canvas
   - path: /assets/images/home/140X120acrylicsoncanvas(2).jpg
@@ -92,34 +64,24 @@ home:
     material: Acrylic
   - path: /assets/images/home/3)60x60acr.jpg
     material: Acrylic
-  - path: /assets/images/home/100X70acrylikonpaper(9).jpg
-    material: Acrylic on paper
   - path: /assets/images/home/140X120acrylicsoncanvas(5).jpg
     material: Acrylic on canvas
-  - path: /assets/images/home/13)30x30acr.jpg
-    material: Acrylic
   - path: /assets/images/home/14)30x30acr.jpg
     material: Acrylic
   - path: /assets/images/home/100X70acrylikonpaper(5).jpg
     material: Acrylic on paper
-  - path: /assets/images/home/60X60acrylicsoncanvas(4).jpg
-    material:  Acrylic on canvas
   - path: /assets/images/home/6)30x30acr.jpg
     material: Acrylic
   - path: /assets/images/home/24)30x30acr.jpg
     material: Acrylic
   - path: /assets/images/home/31.carcoal&softpastelonpaper(4).jpg
     material: Charcoal & soft paster on paper
-  - path: /assets/images/home/23)30x30acr.jpg
-    material: Acrylic
   - path: /assets/images/home/140X120acrylicsoncanvas(4).jpg
     material: Acrylic on canvas
   - path: /assets/images/home/18.80X80crylikoncanvas.jpg
     material: 18.80X80crylikoncanvas.jpg
   - path: /assets/images/home/150X150acrylicsoncanvas.jpg
     material: Acrylic on canvas
-  - path: /assets/images/home/5.softpasteloncanvas.jpg
-    material: Soft pastel on canvas
 early:
   - path: /assets/images/early/DSC01023.jpg
     material: Soft pastel on paper
