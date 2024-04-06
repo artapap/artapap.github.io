@@ -1,8 +1,8 @@
 ---
-title: Landscapes
+title: Dangerous Landscapes
 layout: home
 ---
 
-## Landscapes
+## Dangerous Landscapes
 
 {% include images.html folder="/assets/images/landscapes" category="landscapes" %}

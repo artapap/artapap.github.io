@@ -82,6 +82,88 @@ home:
     material: 18.80X80crylikoncanvas.jpg
   - path: /assets/images/home/150X150acrylicsoncanvas.jpg
     material: Acrylic on canvas
+  - path: /assets/images/home/1.JPG
+    material: " "
+  - path: /assets/images/home/2.JPG
+    material: " "
+  - path: /assets/images/home/2)150X70 OIL.JPG
+    material: " "
+  - path: /assets/images/home/3.JPG
+    material: " "
+  - path: /assets/images/home/4.JPG
+    material: " "
+  - path: /assets/images/home/5.jpg
+    material: " "
+  - path: /assets/images/home/6.JPG
+    material: " "
+  - path: /assets/images/home/7.JPG
+    material: " "
+  - path: /assets/images/home/8.JPG
+    material: " "
+  - path: /assets/images/home/9.JPG
+    material: " "
+  - path: /assets/images/home/10.JPG
+    material: " "
+  - path: /assets/images/home/11.JPG
+    material: " "
+  - path: /assets/images/home/12.JPG
+    material: " "
+  - path: /assets/images/home/13.JPG
+    material: " "
+  - path: /assets/images/home/14.JPG
+    material: " "
+  - path: /assets/images/home/15.JPG
+    material: " "
+  - path: /assets/images/home/16.JPG
+    material: " "
+  - path: /assets/images/home/17.JPG
+    material: " "
+  - path: /assets/images/home/18.JPG
+    material: " "
+  - path: /assets/images/home/19.JPG
+    material: " "
+  - path: /assets/images/home/20.JPG
+    material: " "
+  - path: /assets/images/home/22.JPG
+    material: " "
+  - path: /assets/images/home/23.jpg
+    material: " "
+  - path: /assets/images/home/24.JPG
+    material: " "
+  - path: /assets/images/home/25.JPG
+    material: " "
+  - path: /assets/images/home/26.JPG
+    material: " "
+  - path: /assets/images/home/27.JPG
+    material: " "
+  - path: /assets/images/home/28.JPG
+    material: " "
+  - path: /assets/images/home/29.JPG
+    material: " "
+  - path: /assets/images/home/30.JPG
+    material: " "
+  - path: /assets/images/home/31.JPG
+    material: " "
+  - path: /assets/images/home/32.JPG
+    material: " "
+  - path: /assets/images/home/33.JPG
+    material: " "
+  - path: /assets/images/home/34.JPG
+    material: " "
+  - path: /assets/images/home/35.JPG
+    material: " "
+  - path: /assets/images/home/36.JPG
+    material: " "
+  - path: /assets/images/home/37.JPG
+    material: " "
+  - path: /assets/images/home/38.JPG
+    material: " "
+  - path: /assets/images/home/39.JPG
+    material: " "
+  - path: /assets/images/home/40.JPG
+    material: " "
+  - path: /assets/images/home/41.jpg
+    material: " "
 early:
   - path: /assets/images/early/DSC01023.jpg
     material: Soft pastel on paper
@@ -232,12 +314,6 @@ landscapes:
     material: Acrylic on paper
   - path: /assets/images/landscapes/100X70acrylikonpaper(13)_1.jpg
     material: Acrylic on paper
-  - path: /assets/images/landscapes/100X70acrylikonpaper(13).jpg
-    material: Acrylic on paper
-  - path: /assets/images/landscapes/100X70acrylikonpaper(12).jpg
-    material: Acrylic on paper
-  - path: /assets/images/landscapes/100X70acrylikonpaper(8).jpg
-    material: Acrylic on paper
   - path: /assets/images/landscapes/100X70acrylikonpaper_1.jpg
     material: Acrylic on paper
 reflections:
@@ -269,6 +345,18 @@ reflections:
     material: Charcoal & soft paster on paper
   - path: /assets/images/reflections/100X70acrylikoncanvas.jpg
     material: Acrylic on canvas
+  - path: /assets/images/reflections/1.JPG
+    material: " "
+  - path: /assets/images/reflections/2.jpg
+    material: " "
+  - path: /assets/images/reflections/3.JPG
+    material: " "
+  - path: /assets/images/reflections/4.JPG
+    material: " "
+  - path: /assets/images/reflections/5.JPG
+    material: " "
+  - path: /assets/images/reflections/6.JPG
+    material: " "
 between:
   - path: /assets/images/between/27.colouredpencilonpaper.jpg
     material: Coloured pencil on paper
@@ -288,6 +376,18 @@ between:
     material: Oil
   - path: /assets/images/between/21.colouredpencilonpaper.jpg
     material: Coloured pencil on paper
+  - path: /assets/images/home/1.JPG
+    material: " "
+  - path: /assets/images/home/2.JPG
+    material: " "
+  - path: /assets/images/home/3.jpg
+    material: " "
+  - path: /assets/images/home/4.JPG
+    material: " "
+  - path: /assets/images/home/5.JPG
+    material: " "
+  - path: /assets/images/home/6.JPG
+    material: " "
 installations:
   - path: /assets/images/installations/2016Interactiveinstallation.jpg
     material: Interactive installation
