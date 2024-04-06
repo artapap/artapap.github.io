@@ -376,17 +376,17 @@ between:
     material: Oil
   - path: /assets/images/between/21.colouredpencilonpaper.jpg
     material: Coloured pencil on paper
-  - path: /assets/images/home/1.JPG
+  - path: /assets/images/between/1.JPG
     material: " "
-  - path: /assets/images/home/2.JPG
+  - path: /assets/images/between/2.JPG
     material: " "
-  - path: /assets/images/home/3.jpg
+  - path: /assets/images/between/3.jpg
     material: " "
-  - path: /assets/images/home/4.JPG
+  - path: /assets/images/between/4.JPG
     material: " "
-  - path: /assets/images/home/5.JPG
+  - path: /assets/images/between/5.JPG
     material: " "
-  - path: /assets/images/home/6.JPG
+  - path: /assets/images/between/6.JPG
     material: " "
 installations:
   - path: /assets/images/installations/2016Interactiveinstallation.jpg
