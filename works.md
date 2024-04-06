@@ -8,6 +8,6 @@ layout: home
 - [Between](between)
 - [Volumes](volumes)
 - [Installations](installations)
-- [Landscapes](landscapes)
+- [Dangerous Landscapes](landscapes)
 - [Recents](recents)
 - [Early works](early)
