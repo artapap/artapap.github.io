@@ -3,7 +3,7 @@ title: Works
 layout: home
 ---
 
-- [House](houses)
+- [Home sweet home](houses)
 - [Double Reflections](reflections)
 - [Between](between)
 - [Volumes](volumes)
