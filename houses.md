@@ -1,8 +1,8 @@
 ---
-title: House
+title: Home sweet home
 layout: home
 ---
 
-## House
+## Home sweet home
 
 {% include images.html folder="/assets/images/home" category="home" %}
