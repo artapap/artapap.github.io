@@ -7,7 +7,7 @@ layout: home
 - [Double Reflections](reflections)
 - [Between](between)
 - [Volumes](volumes)
-- [Installations](installations)
+- [Installations and installation projects](installations)
 - [Dangerous Landscapes](landscapes)
 - [Recents](recents)
 - [Early works](early)

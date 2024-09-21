@@ -45,7 +45,7 @@ home:
   - path: /assets/images/home/100X70acrylikonpaper(10)_1.jpg
     material: Acrylic on paper
   - path: /assets/images/home/60X60acryliconcanvas.jpg
-    material:  Acrylic on canvas
+    material: Acrylic on canvas
   - path: /assets/images/home/32)30x30acr.jpg
     material: Acrylic
   - path: /assets/images/home/IMG_5119.jpg
@@ -544,4 +544,59 @@ volumes:
   - path: /assets/images/volumes/DSC03292_edited_edited.jpg
     material: DSC03292_edited_edited.jpg
 
+bunkers:
+  - material: bunkers
+    path: /assets/images/bunkers/73.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/78.JPG
+  - material: ink on paper
+    path: /assets/images/bunkers/4. ink on paper.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/107.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/69.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/71.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/80.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/76.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/75.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/81.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/74.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/110.JPG
+  - material: ink on paper
+    path: /assets/images/bunkers/2. ink on paper.JPG
+  - material: ink on paper
+    path: /assets/images/bunkers/1. ink on paper.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/85.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/84.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/112.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/70.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/83.JPG
+  - material: ink on paper
+    path: /assets/images/bunkers/3. ink on paper.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/68.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/67.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/72.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/82.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/77.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/86.JPG
+  - material: bunkers
+    path: /assets/images/bunkers/108.JPG
 
