@@ -3,6 +3,6 @@ title: Installations
 layout: home
 ---
 
-## Installations
+## Installations and installation projects
 
 {% include images.html folder="/assets/images/installations" category="installations" %}
