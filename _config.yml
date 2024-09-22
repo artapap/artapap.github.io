@@ -192,8 +192,6 @@ early:
     path: /assets/images/early/044751753f.jpg
   - material: Soft pastel on canvas
     path: /assets/images/early/30fb94f58a.jpg
-  - material: early
-    path: /assets/images/early/298aea52c6.jpeg
   - material: Soft pastel on paper
     path: /assets/images/early/cd1fcc67da.jpg
   - material: Soft pastel on canvas
@@ -202,16 +200,10 @@ early:
     path: /assets/images/early/b7c5c4f0cc.jpg
   - material: early
     path: /assets/images/early/bf5462fba2.JPG
-  - material: early
-    path: /assets/images/early/c128e3414d.jpeg
   - material: Soft pastel on paper
     path: /assets/images/early/f2e4f34db6.jpg
   - material: Soft pastel on paper
     path: /assets/images/early/bb87e6e120.jpg
-  - material: early
-    path: /assets/images/early/c7b629246a.jpeg
-  - material: early
-    path: /assets/images/early/408e82d9f1.jpeg
   - material: Oil
     path: /assets/images/early/5d2d2ffe39.jpg
   - material: early
@@ -262,10 +254,6 @@ early:
     path: /assets/images/early/d162e4fcf7.jpg
   - material: Soft pastel on paper
     path: /assets/images/early/efbfc936a3.jpg
-  - material: early
-    path: /assets/images/early/e0d925ed06.jpeg
-  - material: early
-    path: /assets/images/early/fd10c4b0e1.JPG
   - material: Acrylic on canvas
     path: /assets/images/early/be42831c05.jpg
   - material: Soft pastel on paper
@@ -300,8 +288,6 @@ early:
     path: /assets/images/early/3fb7e0bb30.jpg
   - material: Soft pastel on paper
     path: /assets/images/early/a1ab36efc0.jpg
-  - material: early
-    path: /assets/images/early/340a90d774.jpeg
   - material: Soft pastel on paper
     path: /assets/images/early/acd122d2e0.jpg
 
