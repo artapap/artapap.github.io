@@ -332,7 +332,7 @@ landscapes:
 reflections:
   - material: Oil on canvas
     path: /assets/images/reflections/0afb902398.jpg
-  - material: reflections
+  - material: Oil on canvas
     path: /assets/images/reflections/8979ff91b0.jpg
   - material: Charcoal & soft paster on paper
     path: /assets/images/reflections/a04d5d6837.jpg
@@ -348,8 +348,6 @@ reflections:
     path: /assets/images/reflections/a2dc1f2c14.jpg
   - material: Charcoal & soft paster on paper
     path: /assets/images/reflections/0959dfe64d.jpg
-  - material: Oil on canvas
-    path: /assets/images/reflections/ac0aa01ade.jpg
   - material: Charcoal & soft paster on paper
     path: /assets/images/reflections/53f666c768.jpg
   - material: reflections
@@ -432,8 +430,6 @@ installations:
     path: /assets/images/installations/0de0a2ab5f.jpg
   - material: Interactive installation
     path: /assets/images/installations/50a5a12caa.jpg
-  - material: Charcoal & soft paster on paper
-    path: /assets/images/installations/234672ac17.jpg
   - material: Home sweet home installation
     path: /assets/images/installations/99b356d04b.jpg
   - material: Interactive installation
@@ -586,8 +582,6 @@ volumes:
     path: /assets/images/volumes/fd3d82034c.jpg
   - material: volumes
     path: /assets/images/volumes/51fdca0295.jpg
-  - material: volumes
-    path: /assets/images/volumes/a93a2da769.jpeg
   - material: volumes
     path: /assets/images/volumes/2a6035e8d4.jpg
   - material: volumes
