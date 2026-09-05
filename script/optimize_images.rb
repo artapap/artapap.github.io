@@ -7,7 +7,7 @@
 REPO = File.expand_path("..", __dir__)
 IMAGES_DIR = File.join(REPO, "assets", "images")
 MAX_EDGE = 1800
-QUALITY = 85
+QUALITY = 70
 
 Dir.glob(File.join(IMAGES_DIR, "*", "*")).sort.each do |path|
   next unless File.file?(path)

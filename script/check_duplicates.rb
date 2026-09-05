@@ -14,6 +14,13 @@ IMAGES_DIR = File.join(REPO, "assets", "images")
 EXTS = %w[.jpg .jpeg .png .gif .webp]
 NEAR_DUP_THRESHOLD = 5
 
+# Pairs manually confirmed to be genuinely different photos, not duplicates,
+# despite landing at/under the distance threshold (re-compression can nudge
+# borderline dHash distances by a bit or two). Confirmed via visual review.
+KNOWN_NOT_DUPES = [
+  %w[assets/images/home/60fa1a1b17.JPG assets/images/home/f4789f52db.JPG],
+].map { |pair| pair.map { |p| File.join(REPO, p) }.sort }
+
 files = Dir.glob(File.join(IMAGES_DIR, "**", "*"))
            .select { |f| File.file?(f) && EXTS.include?(File.extname(f).downcase) }
            .sort
@@ -47,7 +54,10 @@ hashes = files.each_with_object({}) { |f, h| h[f] = dhash(f) }
 near_dupes = []
 files.combination(2).each do |a, b|
   dist = (hashes[a] ^ hashes[b]).to_s(2).count("1")
-  near_dupes << [a, b, dist] if dist <= NEAR_DUP_THRESHOLD
+  next if dist > NEAR_DUP_THRESHOLD
+  next if KNOWN_NOT_DUPES.include?([a, b].sort)
+
+  near_dupes << [a, b, dist]
 end
 
 ok = true
