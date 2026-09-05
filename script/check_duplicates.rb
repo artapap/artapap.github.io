@@ -29,6 +29,7 @@ KNOWN_NOT_DUPES = [
   %w[assets/images/home/60fa1a1b17.JPG assets/images/home/f4789f52db.JPG],
   %w[assets/images/early/bd9bc0c2d4.jpg assets/images/home/f4789f52db.JPG],
   %w[assets/images/volumes/51fdca0295.jpg assets/images/volumes/6b4bc160ac.jpeg],
+  %w[assets/images/home/c4bc4bd94a.JPG assets/images/landscapes/3210c380b9.jpg],
 ].map(&:sort)
 
 def rel(path)
