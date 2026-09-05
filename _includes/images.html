@@ -1,14 +1,12 @@
 <style>
     .image-gallery {
-        overflow: auto;
-        margin-left: -1% !important;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 10px;
     }
 
     .image-gallery a {
-        float: left;
         display: block;
-        margin: 0 0 0 0;
-        width: 100%;
         text-align: center;
         text-decoration: none !important;
     }
@@ -22,7 +20,7 @@
     }
 
     .image-gallery a img {
-        width: 50%;
+        width: 100%;
         display: block;
     }
 </style>
