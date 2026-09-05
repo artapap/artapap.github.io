@@ -12,14 +12,14 @@ QUALITY = 70
 Dir.glob(File.join(IMAGES_DIR, "*", "*")).sort.each do |path|
   next unless File.file?(path)
 
-  dims = `magick identify -format "%w %h" "#{path}"`.strip.split.map(&:to_i)
+  dims = `identify -format "%w %h" "#{path}"`.strip.split.map(&:to_i)
   next if dims.size != 2
 
   width, height = dims
   next if [width, height].max <= MAX_EDGE
 
   system(
-    "magick", path, "-auto-orient", "-resize", "#{MAX_EDGE}x#{MAX_EDGE}>",
+    "convert", path, "-auto-orient", "-resize", "#{MAX_EDGE}x#{MAX_EDGE}>",
     "-quality", QUALITY.to_s, path,
     exception: true
   )

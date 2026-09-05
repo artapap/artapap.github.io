@@ -27,11 +27,11 @@ files = Dir.glob(File.join(IMAGES_DIR, "**", "*"))
 
 def dhash(file)
   out, status = Open3.capture2(
-    "magick", file, "-auto-orient", "-colorspace", "Gray",
+    "convert", file, "-auto-orient", "-colorspace", "Gray",
     "-resize", "9x8!", "-depth", "8", "gray:-",
-    binmode: true
+    binmode: true, err: File::NULL
   )
-  raise "magick failed for #{file}" unless status.success?
+  raise "convert failed for #{file}" unless status.success?
 
   bytes = out.bytes
   bits = 0

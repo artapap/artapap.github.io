@@ -45,7 +45,10 @@ jobs:
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Check for duplicate photos
         run: |
-          command -v magick >/dev/null || sudo apt-get update && sudo apt-get install -y imagemagick
+          if ! command -v convert >/dev/null; then
+            sudo apt-get update
+            sudo apt-get install -y imagemagick
+          fi
           ruby script/check_duplicates.rb
       - name: Setup Pages
         id: pages
