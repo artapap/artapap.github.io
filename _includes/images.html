@@ -28,9 +28,8 @@
 </style>
 
 <div class="image-gallery">
-    {% for file in site[include.category] %}
+    {% for file in site.data.photos[include.category] %}
     {% if file.path contains include.folder %}
-    {% if file.dimensions != "" %}
 
     {% assign filenameparts = file.path | split: "/" %}
     {% assign filename = filenameparts | last | replace: "jpg","" %}
@@ -39,10 +38,9 @@
        data-fslightbox="gallery"
        data-caption="{{ file.material | default: '' }}"
     >
-        <img src="{{ include.folder }}/{{filenameparts | last  }}"
+        <img src="{{ include.folder }}/{{ filenameparts | last }}"
              alt="{{ file.material }}"/>
     </a>
-    {% endif %}
     {% endif %}
     {% endfor %}
 </div>
