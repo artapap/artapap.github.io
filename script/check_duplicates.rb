@@ -5,9 +5,16 @@
 # Near-duplicate detection uses a 64-bit difference hash (dHash) via ImageMagick;
 # a Hamming distance <= 5 was empirically validated (against RMSE + visual review)
 # to catch same-photo re-exports with zero false positives on this photo set.
+#
+# Note: dHash values can differ by a bit or two between ImageMagick versions
+# (e.g. local v7 vs a CI runner's v6) even for byte-identical input, since
+# resize/grayscale math isn't guaranteed bit-identical across versions - hence
+# the explicit "-filter Box" below, and the KNOWN_NOT_DUPES escape hatch for
+# borderline pairs manually confirmed to be genuinely different photos.
 
 require 'digest'
 require 'open3'
+require 'pathname'
 
 REPO = File.expand_path("..", __dir__)
 IMAGES_DIR = File.join(REPO, "assets", "images")
@@ -17,9 +24,16 @@ NEAR_DUP_THRESHOLD = 5
 # Pairs manually confirmed to be genuinely different photos, not duplicates,
 # despite landing at/under the distance threshold (re-compression can nudge
 # borderline dHash distances by a bit or two). Confirmed via visual review.
+# Paths are relative to the repo root, so this works the same on any host.
 KNOWN_NOT_DUPES = [
   %w[assets/images/home/60fa1a1b17.JPG assets/images/home/f4789f52db.JPG],
-].map { |pair| pair.map { |p| File.join(REPO, p) }.sort }
+  %w[assets/images/early/bd9bc0c2d4.jpg assets/images/home/f4789f52db.JPG],
+  %w[assets/images/volumes/51fdca0295.jpg assets/images/volumes/6b4bc160ac.jpeg],
+].map(&:sort)
+
+def rel(path)
+  Pathname.new(path).relative_path_from(Pathname.new(REPO)).to_s
+end
 
 files = Dir.glob(File.join(IMAGES_DIR, "**", "*"))
            .select { |f| File.file?(f) && EXTS.include?(File.extname(f).downcase) }
@@ -28,7 +42,7 @@ files = Dir.glob(File.join(IMAGES_DIR, "**", "*"))
 def dhash(file)
   out, status = Open3.capture2(
     "convert", file, "-auto-orient", "-colorspace", "Gray",
-    "-resize", "9x8!", "-depth", "8", "gray:-",
+    "-filter", "Box", "-resize", "9x8!", "-depth", "8", "gray:-",
     binmode: true, err: File::NULL
   )
   raise "convert failed for #{file}" unless status.success?
@@ -55,7 +69,7 @@ near_dupes = []
 files.combination(2).each do |a, b|
   dist = (hashes[a] ^ hashes[b]).to_s(2).count("1")
   next if dist > NEAR_DUP_THRESHOLD
-  next if KNOWN_NOT_DUPES.include?([a, b].sort)
+  next if KNOWN_NOT_DUPES.include?([rel(a), rel(b)].sort)
 
   near_dupes << [a, b, dist]
 end
@@ -65,13 +79,13 @@ ok = true
 if exact_dupes.any?
   ok = false
   puts "Exact duplicate files (identical SHA-256):"
-  exact_dupes.each { |group| puts "  #{group.join(' == ')}" }
+  exact_dupes.each { |group| puts "  #{group.map { |f| rel(f) }.join(' == ')}" }
 end
 
 if near_dupes.any?
   ok = false
   puts "Likely near-duplicate images (same photo, different resolution/export):"
-  near_dupes.each { |a, b, d| puts "  #{a} ~= #{b}  (dHash distance #{d})" }
+  near_dupes.each { |a, b, d| puts "  #{rel(a)} ~= #{rel(b)}  (dHash distance #{d})" }
 end
 
 if ok
